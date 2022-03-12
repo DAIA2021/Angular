@@ -49,15 +49,16 @@ header{
 
 } */
 
-#carrosel img{
+ #carrosel img{
     display: none;
-}
+}  
 
-.banner-ativo{
+
+ .banner-ativo{
     display: flex;
     width:100% ;
     height:440px ;
-}
+} 
 
 .secao-conteudo{
     background-color:white;
@@ -94,7 +95,7 @@ header{
      text-decoration: none;
      color: darkgray;
      background-color: blue;
-     border-radius:5px ;
+     border-radius:5px ; 
      
  }
  
