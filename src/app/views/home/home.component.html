@@ -61,19 +61,20 @@
 
     <section class="secao-fotos">
         <div class="fotos-jogos container ">
-            <div class="fotos">
+            <div *ngFor="let noticias of listaSecaoJogos" class="fotos">
                 
-                <a href="#"><img  src="assets/img/fifa02.png"  alt="" /></a>
+                <a href="#"><img  [src]=SecaoJogos.imagem  alt="" /></a>
                
-                <a href="#"><img src="assets/img/imagem 7.png"  alt="" /></a>
+                <!-- <a href="#"><img src="assets/img/imagem 7.png"  alt="" /></a>
                
-                <a href="#"><img  src="assets/img/imagem 1.png"  alt="" /></a>
+                <a href="#"><img  src="assets/img/imagem 1.png"  alt="" /></a> -->
                 
             </div>
             <div class="valor">
-                <p>PS2 R$100,00</p>
-                <p>Console R$200,00</p>
-                <p>Xbox R$300,00</p>
+                <h3>{{SecaoJogos.titulo}}</h3>
+                <p>{{SecaoJogos.descricao}}</p>
+                <!-- <p>Console R$200,00</p>
+                <p>Xbox R$300,00</p> -->
 
             </div>
 

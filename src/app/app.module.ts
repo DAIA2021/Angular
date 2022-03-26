@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { JogadorComponent } from './views/jogador/jogador.component';
 import { HomeComponent } from './views/home/home.component';
+import { LoginComponent } from './views/login/login.component';
+import { HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -14,10 +16,13 @@ import { HomeComponent } from './views/home/home.component';
     ContatoComponent,
     JogadorComponent,
     HomeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

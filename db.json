@@ -1,0 +1,22 @@
+{
+  "secao-jogos": [
+    {
+      "id": 1,
+      "imagem": " assets/img/fifa02.png ",
+      "titulo": " APROVEITE ",
+      "descricao": " DESCONTOS,CONFIRA "
+    },
+    {
+      "id": 2,
+      "imagem": " assets/img/imagem 7.png",
+      "titulo": " APROVEITE",
+      "descricao": " DESCONTOS,CONFIRA "
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/imagem 1.png ",
+      "titulo": " COMPRE AGORA ",
+      "descricao": " DESCONTOS, CONFIRA "
+    }
+  ]
+}
